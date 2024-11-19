@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven's Portfolio Website - Documenting IT & Cybersecurity Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3ec0cc6663.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="visitor-counter"></div>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header"></i> Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Aspiring Cybersecurity and Software Developer</p>
+            <h1>Hi, I'm <span>Steven Dan</span><br> from Australia.</h1>
+            <p>Follow me along my journey as I learn about cybersecurity and<br>software development. This website will house all my projects.</p>
+        </div>
+    </div>
+</div>
+<!--- ---------about-------------  ---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <b class="section-title">Tell us about your personal mission</b>
+                <p>My personal mission is to become a software developer and cybersecurity professional who builds secure, innovative solutions that empower organizations to thrive in a digital world. I am passionate about creating software that is not only functional but also resilient against emerging cyber threats, ensuring data integrity and user trust. Through continuous learning and practical application, I aim to contribute to a safer, more secure technological landscape for all.</p>
+                <b class="section-title">Tell us about an opportunity for impact in your community</b>
+                <p>Software development offers a powerful opportunity to create solutions that address real-world problems and improve everyday life. As a developer, I am passionate about designing and building applications that are user-friendly, efficient, and scalable, leveraging programming languages and frameworks to turn ideas into functional software. I see software development as a blend of creativity and logic, where problem-solving and innovation converge to drive technology forward and deliver meaningful impact to individuals and organizations alike.</p>
+                <b class="section-title">Tell us about a venture you created</b>
+                <p>One of my early ventures in software development was creating a Caesar cipher program using Python as part of a personal project. This venture involved developing an encryption and decryption tool that shifts letters in a message by a specified number of places in the alphabet, demonstrating a foundational concept in cryptography. It was an exciting project that deepened my understanding of algorithms, Python programming, and the importance of data security.</p>
+                <b class="section-title">Tell us about your big hairy audacious goals</b>
+                <p>My goal is to gain a deep understanding of cybersecurity and software development while transitioning into a new field, ultimately becoming a proficient and well-rounded professional in the tech industry. I am committed to continuously learning new technologies, tools, and best practices to stay ahead in an ever-evolving field. By focusing on both cybersecurity and software development, I aim to build secure, efficient, and scalable systems that meet the demands of modern businesses. I will seek out hands-on experiences, certifications, and projects that allow me to apply my knowledge and improve my skills. Ultimately, my goal is to contribute to the protection and advancement of digital environments while growing as a leader in the tech community.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Cybersecurity</span><br>Penetration Testing<br>Incident Response Planning<br>Implement Network Security</li>
+                        <li><span>Networking</span><br>Configure and secure network endpoints<br>OSI & TCP/IP<br>Set up and manage VPN<br>Firewall</li>
+                        <li><span>Web Development</span><br>Website Application Development</li>
+                        <li><span>Cloud Networking</span><br>AWS</li>
+                        <li><span>Programming</span><br>Python<br>JavaScript<br>C</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>July 2024 - Current</span><br>Level 1 Customer Support at Aussie Broadband</li>
+                        <li><span>Feb 2025 - Planned</span><br>Hoblerton School Australia</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Certificate IV in Cybersecurity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------services--- -->  
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Cybersecurity</h2>
+                <p>Demonstrated foundational skills in cyber security through the following key areas: identifying organizational security needs, analyzing and presenting research information, applying network concepts and protocols, and ensuring adherence to cyber security legislation, privacy, and ethical standards. Experienced in conducting security tests, contributing to WHS communication, and executing a comprehensive cyber security project. Proven ability to work collaboratively within ICT settings to meet industry standards and address security challenges effectively. .</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>Networking</h2>
+                <p>Designing, implementing, and managing an organization's network infrastructure, including LAN, WAN, VPN, and wireless networks. They configure and troubleshoot networking equipment such as routers, switches, and firewalls to ensure optimal network performance and reliability.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Web Development</h2>
+                <p>Creating, maintaining, and enhancing websites and web applications to deliver an optimal user experience. They work with various programming languages, such as HTML, CSS, JavaScript, and often frameworks like React, Angular, or Vue, to design and implement responsive, interactive web interface.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- --------portfolio ------ -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work_1.png">
+                <div class="layer">
+                    <h3>Cisco Packet Tracer</h3>
+                    <p>Configuring network with Cisco simulator tool, Packet Tracer.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_2.png">
+                <div class="layer">
+                    <h3>Phishing Campaign</h3>
+                    <p>Testing organisation's security posture with Gophish and MailHog.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_3.jpeg">
+                <div class="layer">
+                    <h3>Web Vulnerabilities</h3>
+                    <p>Testing organisation's sytem vulnerabilities with Kali Linux</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- ----------contact------ -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> sdan.160395@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 000 000 000</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/?lang=en"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+                <a href="images/resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Steven Dan <i class="fa-regular fa-face-smile"></i></p>
+    </div>
+   </div>
+ 
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxpaFGn1sIUdwPLb3V-PDMw33DSorzUa0xpQxk91dpR990Znv7tk-Qzqp1d1vrgGvc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully."
+            setTimeout(function(){
+                msg.innnerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    const visitorCounterElement = document.getElementById("visitor-counter");
+    let visitCount = localStorage.getItem("page_visit_count");
+
+    if (visitCount) {
+        visitCount = parseInt(visitCount) + 1;
+    } else {
+        visitCount = 1;
+    }
+    localStorage.setItem("page_visit_count", visitCount);
+
+    visitorCounterElement.innerText = `Number of visits: ${visitCount}`;
+</script>
+
+</body>
+</html>
